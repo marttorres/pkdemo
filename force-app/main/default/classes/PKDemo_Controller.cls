@@ -19,6 +19,7 @@ public class PKDemo_Controller {
             insert newContactObj;
         } catch (Exception e) {
             System.debug('Error description: ' + e.getMessage());
+            System.debug('Error description additional: ' + e.getMessage());
         }
     }
 }
